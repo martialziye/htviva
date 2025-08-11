@@ -37,8 +37,8 @@ const HowItWorksSection = () => {
       title: "Notre Engagement de Service",
       items: [
         {
-          title: "Garantie Qualité Gratuite",
-          description: "Nous offrons une garantie gratuite d'un an avec un engagement inébranlable. Pendant cette période, vous n'aurez pas à vous soucier des problèmes de qualité du produit."
+          title: "Garantie Qualité",
+          description: "Nous offrons une garantie de qualité durable sur l’ensemble du cycle de vie du produit, avec un engagement constant envers la fiabilité"
         },
         {
           title: "Support Logiciel à Vie",
@@ -52,8 +52,8 @@ const HowItWorksSection = () => {
       summary: {
         title: "Garantie de Service Complète",
         description: [
-          "Qu'il s'agisse de pannes matérielles inattendues ou de problèmes logiciels complexes, notre équipe peut réagir rapidement et les traiter avec précision. Nous assurons une vérification complète du fonctionnement du programme terminal, vous fournissant des garanties pratiques solides.",
-          "Avec notre équipe technique professionnelle et notre système de maintenance efficace, nous garantissons le fonctionnement fluide de votre équipement et une expérience d'utilisation sans souci."
+          "Que ce soit pour des pannes matérielles imprévues ou des dysfonctionnement logiciels complexes, notre équipe intervient avec réactivité et précision. Nous réalisons un contrôle approfondi du programme terminal, afin de garantir une fiabilité et des performance durable.",
+          "Avec notre équipe technique professionnelle et notre système de maintenance efficace, nous garantissons le fonctionnement fluide de votre équipement ainsi qu’une expériences d’utilisation fiable et optimale."
         ]
       },
       ctaButton: "Contactez-nous"

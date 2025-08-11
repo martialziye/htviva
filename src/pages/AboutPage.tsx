@@ -236,8 +236,8 @@ const AboutPage = () => {
                 <h3 className="text-xl font-semibold">Headquarters</h3>
               </div>
               <p className="text-lg text-gray-700 mb-6">
-                26 rue Paul Sabatier <br />
-                71530 CHALON-SUR-SAONE <br />
+                200 rue de la Croix Nivert <br />
+                75015 PARIS <br />
                 FRANCE
               </p>
               <p className="text-lg text-gray-700 mb-6">
@@ -257,7 +257,7 @@ const AboutPage = () => {
               <div className="rounded-lg overflow-hidden shadow-lg">
                 {/* Placeholder for map image - would typically be replaced by an interactive map */}
                 <img
-                  src="https://www.mapquestapi.com/staticmap/v5/map?key=YOUR_KEY&center=Chalon-sur-Saône,France&size=600,400&zoom=14&locations=26 rue Paul Sabatier,71530 CHALON-SUR-SAONE,FRANCE||marker-sm-3B5998-22407F&type=map"
+                  src="https://www.mapquestapi.com/staticmap/v5/map?key=YOUR_KEY&center=200 rue de la Croix Nivert,75015 Paris,France&size=600,400&zoom=14&locations=200 rue de la Croix Nivert,75015 Paris,France||marker-sm-3B5998-22407F&type=map"
                   alt="Map showing Htviva headquarters location"
                   className="w-full"
                 />

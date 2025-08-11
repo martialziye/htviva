@@ -41,12 +41,12 @@ const Footer = () => {
               <span className="text-brand-red">HTVIV</span>A
             </div>
             <p className="text-gray-300 mb-4">
-              26 rue Paul Sabatier <br />
-              71530 CHALON-SUR-SAONE <br />
+              200 rue de la Croix Nivert <br />
+              75015 PARIS <br />
               FRANCE
             </p>
             <p className="text-gray-300">
-              Tel: +33 (0)3 85 97 12 00 <br />
+              Tel: 09 83 31 62 55 <br />
               Email: contact@htviva.fr
             </p>
           </div>

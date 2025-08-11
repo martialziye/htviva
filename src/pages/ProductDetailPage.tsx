@@ -88,18 +88,6 @@ const ProductDetailPage = () => {
               </div>
             </AccordionSection>
 
-            <AccordionSection
-              title={language === 'en' ? 'EMC Environment' : 'Environnement CEM'}
-              isExpanded={expandedSection === 'emc'}
-              onToggle={() => toggleSection('emc')}
-              isActive={expandedSection === 'emc'}
-            >
-              <div className="text-sm text-gray-600 space-y-2">
-                <p>{language === 'en' ? 'EMC compliance for industrial applications' : 'Conformité CEM pour applications industrielles'}</p>
-                <p>{language === 'en' ? 'CE marked according to EMC directive' : 'Marquage CE selon la directive CEM'}</p>
-                <p>{language === 'en' ? 'Immunity to electrical fast transients' : 'Immunité aux transitoires électriques rapides'}</p>
-              </div>
-            </AccordionSection>
 
             <AccordionSection
               title={language === 'en' ? 'Climatic Environment' : 'Environnement climatique'}
@@ -131,19 +119,6 @@ const ProductDetailPage = () => {
               </div>
             </AccordionSection>
 
-            <AccordionSection
-              title={language === 'en' ? 'Standards and Guidelines' : 'Normes et directives'}
-              isExpanded={expandedSection === 'standards'}
-              onToggle={() => toggleSection('standards')}
-              isActive={expandedSection === 'standards'}
-            >
-              <div className="text-sm text-gray-600 space-y-2">
-                <p>{language === 'en' ? 'IEC 61000-6-2 (Immunity)' : 'IEC 61000-6-2 (Immunité)'}</p>
-                <p>{language === 'en' ? 'IEC 61000-6-4 (Emission)' : 'IEC 61000-6-4 (Émission)'}</p>
-                <p>{language === 'en' ? 'EN 55022 Class A' : 'EN 55022 Classe A'}</p>
-                <p>{language === 'en' ? 'FCC Part 15 Class A' : 'FCC Part 15 Classe A'}</p>
-              </div>
-            </AccordionSection>
           </div>
         </div>
       </div>

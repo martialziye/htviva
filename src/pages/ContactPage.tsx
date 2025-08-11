@@ -75,8 +75,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-medium mb-1">{t('contact.info.address')}</h3>
                     <p className="text-gray-600">
-                      26 rue Paul Sabatier <br />
-                      71530 CHALON-SUR-SAONE <br />
+                      200 rue de la Croix Nivert <br />
+                      75015 PARIS <br />
                       FRANCE
                     </p>
                   </div>
@@ -99,8 +99,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-medium mb-1">{t('contact.info.phone')}</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+33385971200" className="hover:text-brand-red transition-colors">
-                        +33 (0)3 85 97 12 00
+                      <a href="tel:+33983316255" className="hover:text-brand-red transition-colors">
+                        09 83 31 62 55
                       </a>
                     </p>
                   </div>

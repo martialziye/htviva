@@ -1,22 +1,39 @@
 import React from 'react';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const QualitySection = () => {
+  const { language } = useLanguage();
+
+  const content = {
+    en: {
+      title: 'Quality, Reliability, Safety',
+      paragraphs: [
+        'We are involved in the validation and certification of our processes.',
+        'We guarantee a stable level of performance as well as consistent quality of our services and products throughout the project lifecycle.'
+      ]
+    },
+    fr: {
+      title: 'Qualité, Fiabilité, Sécurité',
+      paragraphs: [
+        'Nous sommes impliqués dans la validation et la certification de nos processus.',
+        "Nous garantissons un niveau de performance stable ainsi qu'une qualité constante de nos services et produits tout au long du cycle de vie des projets."
+      ]
+    }
+  } as const;
+
+  const current = language === 'fr' ? content.fr : content.en;
+
   return (
     <section className="py-16 md:py-20 bg-white">
       <div className="container-wide">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Column - Content and Certifications */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Quality means safety
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">{current.title}</h2>
             <div className="space-y-4 text-gray-600 mb-8">
-              <p className="text-lg leading-relaxed">
-                We are involved in validation and certification of our processes.
-              </p>
-              <p className="text-lg leading-relaxed">
-                We validate a stable level of performance and a constant quality of services and products throughout the life of projects.
-              </p>
+              {current.paragraphs.map((text, idx) => (
+                <p key={idx} className="text-lg leading-relaxed">{text}</p>
+              ))}
             </div>
 
             {/* Certification Logos */}

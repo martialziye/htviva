@@ -169,7 +169,7 @@ const ServicesPage = () => {
                 {/* Description */}
                 <p className="text-lg text-gray-700 leading-relaxed mb-10 max-w-lg">
                   {language === 'fr'
-                    ? 'Nous sommes un fournisseur français leader dans la conception, la fabrication et la maintenance de systèmes électroniques embarqués. En développant nos services, HTviva a élargi sa gamme avec des services à haute valeur ajoutée.'
+                    ? 'Depuis 15 ans, HT-Viva répondons aux exigences du secteur ferroviaire (ERTMS/ETCS/CBTC, TCMS, CCTV) en proposant des solutions performantes, techniques et fiables. Nos services ont mis en place une stratégie pertinente de compatibilité pour garantir que les solutions d’aujourd’hui répondront aux besoins de demain de clients'
                     : 'We are a leading French supplier in the conception, manufacture and maintenance of embedded electronic systems. By upscaling services, HTviva has broadened its range with high added value services. To become your privileged partner, we create dedicated solutions according to your needs.'
                   }
                 </p>

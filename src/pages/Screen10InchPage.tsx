@@ -124,38 +124,6 @@ const Screen10InchPage = () => {
               )}
             </div>
 
-            {/* EMC Environment Section */}
-            <div className="border border-gray-200 rounded-lg">
-              <button
-                onClick={() => toggleSection('emc')}
-                className="w-full px-6 py-4 flex items-center justify-between text-left bg-gray-50 hover:bg-gray-100 transition-colors"
-              >
-                <span className={`text-lg font-semibold ${
-                  expandedSection === 'emc' ? 'text-brand-red' : 'text-gray-600'
-                }`}>
-                  {language === 'en' ? 'EMC ENVIRONMENT' : 'ENVIRONNEMENT EMC'}
-                </span>
-                {expandedSection === 'emc' ? (
-                  <ChevronUp className="w-5 h-5 text-gray-500 transition-transform duration-300" />
-                ) : (
-                  <ChevronDown className="w-5 h-5 text-gray-500 transition-transform duration-300" />
-                )}
-              </button>
-              
-              {expandedSection === 'emc' && (
-                <div className="overflow-hidden transition-all duration-500 ease-in-out">
-                  <div className="px-6 py-4 bg-white">
-                    <div className="space-y-3 text-gray-700">
-                      <p>Enhanced electromagnetic compatibility for demanding environments</p>
-                      <p>EN 50121-3-2 (Railway applications - EMC)</p>
-                      <p>IEC 61000-4-2 (Electrostatic discharge immunity) - Level 4</p>
-                      <p>IEC 61000-4-3 (Radiated electromagnetic field immunity) - Level 3</p>
-                      <p>IEC 61000-4-4 (Electrical fast transient immunity)</p>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
 
             {/* Climatic Environment Section */}
             <div className="border border-gray-200 rounded-lg">
@@ -190,38 +158,6 @@ const Screen10InchPage = () => {
               )}
             </div>
 
-            {/* Standards and Guidelines Section */}
-            <div className="border border-gray-200 rounded-lg">
-              <button
-                onClick={() => toggleSection('standards')}
-                className="w-full px-6 py-4 flex items-center justify-between text-left bg-gray-50 hover:bg-gray-100 transition-colors"
-              >
-                <span className={`text-lg font-semibold ${
-                  expandedSection === 'standards' ? 'text-brand-red' : 'text-gray-600'
-                }`}>
-                  {language === 'en' ? 'STANDARDS AND GUIDELINES' : 'NORMES ET DIRECTIVES'}
-                </span>
-                {expandedSection === 'standards' ? (
-                  <ChevronUp className="w-5 h-5 text-gray-500 transition-transform duration-300" />
-                ) : (
-                  <ChevronDown className="w-5 h-5 text-gray-500 transition-transform duration-300" />
-                )}
-              </button>
-              
-              {expandedSection === 'standards' && (
-                <div className="overflow-hidden transition-all duration-500 ease-in-out">
-                  <div className="px-6 py-4 bg-white">
-                    <div className="space-y-3 text-gray-700">
-                      <p>EN 50155 (Railway applications - Electronic equipment)</p>
-                      <p>EN 45545-2 (Fire protection on railway vehicles)</p>
-                      <p>IEC 62236 (Railway applications - EMC)</p>
-                      <p>ISO 9001:2015 Quality Management System</p>
-                      <p>IRIS (International Railway Industry Standard)</p>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
           </div>
         </div>
       </div>

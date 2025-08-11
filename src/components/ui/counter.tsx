@@ -12,32 +12,32 @@ export default function Counter1() {
                         <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={800}>
                             <div className="countre2-boxarea text-center">
                                 <div className="counter-box">
-                                    <h1 className="font-outfit font-44 lineh-52 color-17 weight-600"><CounterUp count={400} /></h1>
-                                    <p className="font-outfit font-16 lineh-16 color-15 weight-400 margin-t">Consulting Solution</p>
+                                    <h1 className="font-outfit font-44 lineh-52 color-17 weight-600"><CounterUp count={10000} /></h1>
+                                    <p className="font-outfit font-16 lineh-16 color-15 weight-400 margin-t">DMIs</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={1000}>
                             <div className="countre2-boxarea text-center">
                                 <div className="counter-box">
-                                    <h1 className="font-outfit font-44 lineh-52 color-17 weight-600"><CounterUp count={620} /></h1>
-                                    <p className="font-outfit font-16 lineh-16 color-15 weight-400 margin-t">Complete Cases</p>
+                                    <h1 className="font-outfit font-44 lineh-52 color-17 weight-600"><CounterUp count={106} /></h1>
+                                    <p className="font-outfit font-16 lineh-16 color-15 weight-400 margin-t">Lines</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={1200}>
                             <div className="countre2-boxarea text-center">
                                 <div className="counter-box">
-                                    <h1 className="font-outfit font-44 lineh-52 color-17 weight-600"><CounterUp count={800} /></h1>
-                                    <p className="font-outfit font-16 lineh-16 color-15 weight-400 margin-t">Happy Customer</p>
+                                    <h1 className="font-outfit font-44 lineh-52 color-17 weight-600"><CounterUp count={38} /></h1>
+                                    <p className="font-outfit font-16 lineh-16 color-15 weight-400 margin-t">Cities</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={1400}>
                             <div className="countre2-boxarea text-center">
                                 <div className="counter-box">
-                                    <h1 className="font-outfit font-44 lineh-52 color-17 weight-600"><CounterUp count={120} /></h1>
-                                    <p className="font-outfit font-16 lineh-16 color-15 weight-400 margin-t">Expert Consultant</p>
+                                    <h1 className="font-outfit font-44 lineh-52 color-17 weight-600"><CounterUp count={12} /></h1>
+                                    <p className="font-outfit font-16 lineh-16 color-15 weight-400 margin-t">Clients</p>
                                 </div>
                             </div>
                         </div >
