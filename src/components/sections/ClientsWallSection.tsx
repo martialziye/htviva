@@ -1,6 +1,8 @@
 import React from 'react';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const ClientsWallSection = () => {
+  const { language } = useLanguage();
   const clientLogos = [
     { src: '/assets/img/logo/bombardier-100x80.jpg', alt: 'Bombardier' },
     { src: '/assets/img/logo/casco-100x80.jpg', alt: 'Casco' },
@@ -17,9 +19,18 @@ const ClientsWallSection = () => {
       <div className="container-wide">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            They trust us
+            {language === 'fr' ? 'Ils nous font confiance' : 'They trust us'}
           </h2>
           <div className="w-16 h-1 bg-brand-red mx-auto"></div>
+          {language === 'fr' ? (
+            <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+              Aujourd'hui, comme leader sur le marché chinois avec plus de 65 % de part de marché dans le secteur du métro et tramway, HT VIVA dispose d'une expertise technique reconnue et développe avec nos clients.
+            </p>
+          ) : (
+            <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+              Today, as a market leader in China holding over 65% market share in the metro and tramway sector, HT-Viva has established recognized technical expertise and continues to grow alongside our clients.
+            </p>
+          )}
         </div>
 
         {/* Client Logos Grid */}

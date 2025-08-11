@@ -45,7 +45,7 @@ const fixedServices = [
     icon: Award,
     name_en: "EXPERTISE AND CONSULTING",
     name_fr: "EXPERTISE ET CONSEIL",
-    description_en: "Our experience in embedded electronics systems and software allow us to propose adapted tools and developments for your company.",
+    description_en: "Our extensive experience in embedded electronic systems and software enables us to deliver adapted tools and developments to meet your business requirements.",
     description_fr: "Notre expérience en systèmes électroniques embarqués et en logiciels nous permet de proposer des outils et des développements adaptés à votre entreprise.",
     bgColorClass: "bg-red-50",
     textColorClass: "text-brand-red"
@@ -53,10 +53,10 @@ const fixedServices = [
   {
     id: 'fixed-2',
     icon: Wrench,
-    name_en: "MAINTAIN, REPAIR AND OVERHAUL",
+    name_en: "MAINTENANCE, REPAIR AND OVERHAUL",
     name_fr: "MAINTENANCE, RÉPARATION ET RÉVISION",
-    description_en: "HTVIVA offers customised MRO solutions that allow your company to operate without unintentional stoppages.",
-    description_fr: "HTVIVA propose des solutions MRO personnalisées qui permettent à votre entreprise de fonctionner sans arrêts imprévus.",
+    description_en: "HT-Viva provides customized solutions to keep your operations running without unplanned downtime.",
+    description_fr: "HTVIVA propose des solutions personnalisées qui permettent à votre entreprise de fonctionner sans arrêts imprévus.",
     bgColorClass: "bg-red-50",
     textColorClass: "text-brand-red"
   },
@@ -65,7 +65,7 @@ const fixedServices = [
     icon: Search,
     name_en: "OBSOLESCENCE MANAGEMENT",
     name_fr: "GESTION DE L'OBSOLESCENCE",
-    description_en: "HTVIVA proposes different services adapted to customer needs in order to optimize the life cycle of its products.",
+    description_en: "We offer a range of services designed to meet customer needs and optimize the product lifecycle.",
     description_fr: "HTVIVA propose différents services adaptés aux besoins des clients afin d'optimiser le cycle de vie de ses produits.",
     bgColorClass: "bg-red-50",
     textColorClass: "text-brand-red"
@@ -155,23 +155,19 @@ const ServicesPage = () => {
                 {/* Main Title */}
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 leading-tight">
                   <span className="block">{t('services.title')}</span>
-                  <span className="block text-brand-red">& MRO</span>
                 </h1>
 
                 {/* Subtitle */}
                 <h2 className="text-xl md:text-2xl font-medium text-gray-600 mb-8">
                   {language === 'fr' 
                     ? 'Apporter de la valeur à nos clients'
-                    : 'Delivering value to our customers'
+                    : 'Delivering Value to Our Customers'
                   }
                 </h2>
 
                 {/* Description */}
                 <p className="text-lg text-gray-700 leading-relaxed mb-10 max-w-lg">
-                  {language === 'fr'
-                    ? 'Depuis 15 ans, HT-Viva répondons aux exigences du secteur ferroviaire (ERTMS/ETCS/CBTC, TCMS, CCTV) en proposant des solutions performantes, techniques et fiables. Nos services ont mis en place une stratégie pertinente de compatibilité pour garantir que les solutions d’aujourd’hui répondront aux besoins de demain de clients'
-                    : 'We are a leading French supplier in the conception, manufacture and maintenance of embedded electronic systems. By upscaling services, HTviva has broadened its range with high added value services. To become your privileged partner, we create dedicated solutions according to your needs.'
-                  }
+                  {t('services.description')}
                 </p>
 
                 {/* CTA Button */}
@@ -238,7 +234,7 @@ const ServicesPage = () => {
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
               {language === 'fr' 
                 ? "Notre expertise approfondie en systèmes électroniques embarqués nous permet d'offrir des services de conseil et de développement sur mesure pour répondre aux besoins spécifiques de votre entreprise."
-                : "Our deep expertise in embedded electronic systems allows us to offer tailored consulting and development services to meet your company's specific needs."
+                : "Our deep expertise in embedded electronic systems allows us to offer tailored consulting and development services to meet your company's specific request."
               }
             </p>
           </div>

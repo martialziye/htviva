@@ -57,7 +57,7 @@ const ExpertisePage = () => {
     {
       title: "SERVICE",
       description:
-        "After-sales service, MRO (Maintenance, Repair, and Operations), Obsolescence management",
+        "After-sales service, Maintenance, Repair, Obsolescence management",
       image: expertiseStep6, // Using step 6 image for step 7 as well
       color: "text-orange-600 bg-orange-600/10",
     },

@@ -12,8 +12,8 @@ const HowItWorksSection = () => {
       title: "Our Service Commitment",
       items: [
         {
-          title: "Free Quality Warranty",
-          description: "We provide a one-year free warranty with unwavering commitment. During this extensive period, you won't have to worry about product quality issues."
+          title: "Quality Warranty",
+          description: "We provide long-term quality warranty throughout the entire product lifecycle, with an consistent commitment to reliability."
         },
         {
           title: "Lifetime Software Support",
@@ -27,8 +27,8 @@ const HowItWorksSection = () => {
       summary: {
         title: "Comprehensive Service Guarantee",
         description: [
-          "Whether it's unexpected hardware failures or complex software issues, our team can respond quickly and handle them with precision. We ensure comprehensive verification of terminal program operation, providing you with solid practical guarantees.",
-          "With our professional technical team and efficient maintenance system, we guarantee smooth operation of your equipment and worry-free usage experience."
+          "Whether it's unexpected hardware failures or complex software malfunctions, our team will respond quickly and handle them with precision. We ensure comprehensive verification of terminal program operation, providing you with solid practical guarantees.",
+          "With our professional technical team and efficient maintenance system, we guarantee smooth equipment operation and a consistently reliable and optimal user experience."
         ]
       },
       ctaButton: "Contact Us"
@@ -38,7 +38,7 @@ const HowItWorksSection = () => {
       items: [
         {
           title: "Garantie Qualité",
-          description: "Nous offrons une garantie de qualité durable sur l’ensemble du cycle de vie du produit, avec un engagement constant envers la fiabilité"
+          description: "Nous offrons une garantie de qualité durable sur l'ensemble du cycle de vie du produit, avec un engagement constant envers la fiabilité."
         },
         {
           title: "Support Logiciel à Vie",

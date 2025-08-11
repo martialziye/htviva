@@ -19,8 +19,8 @@ const translations = {
         subtitle: 'High-performance embedded systems designed for demanding environments'
       },
       section1: {
-        title: 'We design tomorrow\'s electronic solutions',
-        description: 'Founded in 2010, HT-Viva Technologie Co., Ltd. is a high-tech company specialized in the development and production of onboard display equipment (DMI) and customized hardware and software solutions for trains, metros, trams and urban rail networks.'
+        title: 'Designing the Electronics Solutions of Tomorrow',
+        description: 'Founded in 2010, HT-Viva Technology Co., Ltd. is a high-tech enterprise specializing in the development and manufacturing of onboard display equipment (DMI) as well as customized hardware and software solutions for trains, metros, trams, and urban rail transit networks.'
       },
       section2: {
         title: 'Tailor-made solutions for your specific needs',
@@ -51,7 +51,7 @@ const translations = {
     },
     services:{
       title: 'Services',
-      description: 'Our services are designed for critical applications and are built to last. We offer a range of services that are designed to meet the needs of our customers.',
+      description: 'For over 15 years, HT-Viva has met the demands of the railway sector (ERTMS/ETCS/CBTC, TCMS, CCTV) by delivering high-performance, technical, and reliable solutions. Our service strategy ensures forward compatibility, making certain that today\'s solutions meet tomorrow\'s request.',
     },
     expertise:{
       title: 'Expertise',
@@ -198,7 +198,7 @@ const translations = {
     },
     services:{
       title: 'Services',
-      description: 'Nos services sont conçus pour des applications critiques et sont conçus pour durer. Nous offrons une gamme de services conçus pour répondre aux besoins de nos clients.',
+      description: 'Depuis 15 ans, HT-Viva répondons aux exigences du secteur ferroviaire (ERTMS/ETCS/CBTC, TCMS, CCTV) en proposant des solutions performantes, techniques et fiables. Nos services ont mis en place une stratégie pertinente de compatibilité pour garantir que les solutions d\'aujourd\'hui répondront aux besoins de demain de clients.',
     },
     expertise:{
       title: 'Expertise',
@@ -313,10 +313,10 @@ const LanguageContext = createContext<LanguageContextType>({
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState('en');
 
-  const t = (key: string) => {
+  const t = (key: string): string => {
     const keys = key.split('.');
     
-    let result = translations[language as keyof typeof translations];
+    let result: any = translations[language as keyof typeof translations];
     
     for (const k of keys) {
       if (result && typeof result === 'object' && k in result) {
@@ -327,7 +327,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       }
     }
     
-    return result as string;
+    return typeof result === 'string' ? result : key;
   };
 
   return (

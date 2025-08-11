@@ -13,14 +13,14 @@ export default function RepairSection() {
             fr: 'Fourniture et production de pièces de rechange.'
         },
         {
-            en: 'Obsolete spare parts repair.',
+            en: 'Repair of obsolete spare parts.',
             fr: 'Réparation de pièces de rechange obsolètes.'
         }
     ];
 
     const maintenanceItems = [
         {
-            en: "Facilities' audits – Adapted Programs.",
+            en: 'Installation audits with tailored programs.',
             fr: 'Audits des installations – Programmes adaptés.'
         },
         {
@@ -28,11 +28,11 @@ export default function RepairSection() {
             fr: 'Stockage de pièces de rechange.'
         },
         {
-            en: 'Research and analysis of on-site malfunctions.',
+            en: 'On-site fault diagnosis and analysis.',
             fr: 'Recherche et analyse des dysfonctionnements sur site.'
         },
         {
-            en: 'Preventative and corrective components replacement.',
+            en: 'Preventive and corrective component replacement.',
             fr: 'Remplacement préventif et correctif des composants.'
         },
         {
@@ -85,7 +85,7 @@ export default function RepairSection() {
                             {/* After-sales solution Section */}
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold text-gray-800">
-                                    {language === 'fr' ? 'Solution après-vente' : 'After-sales solution'}
+                                    {language === 'fr' ? 'Solution après-vente' : 'Supply and Production of Spare Parts'}
                                 </h3>
                                 <div className="space-y-3">
                                     {afterSalesItems.map((item, index) => (
@@ -102,7 +102,7 @@ export default function RepairSection() {
                             {/* Maintenance Section */}
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold text-gray-800">
-                                    {language === 'fr' ? 'Maintenance' : 'Maintenance'}
+                                    {language === 'fr' ? 'Maintenance' : 'Maintenance Services'}
                                 </h3>
                                 <div className="space-y-3">
                                     {maintenanceItems.map((item, index) => (

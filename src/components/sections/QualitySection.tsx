@@ -8,15 +8,15 @@ const QualitySection = () => {
     en: {
       title: 'Quality, Reliability, Safety',
       paragraphs: [
-        'We are involved in the validation and certification of our processes.',
-        'We guarantee a stable level of performance as well as consistent quality of our services and products throughout the project lifecycle.'
+        'We are actively engaged in the validation and certification of our processes.',
+        'We ensure stable performance levels and consistent quality across our services and products throughout the entire project lifecycle.'
       ]
     },
     fr: {
-      title: 'Qualité, Fiabilité, Sécurité',
+      title: 'Qualité, Fiabilité, sécurité',
       paragraphs: [
         'Nous sommes impliqués dans la validation et la certification de nos processus.',
-        "Nous garantissons un niveau de performance stable ainsi qu'une qualité constante de nos services et produits tout au long du cycle de vie des projets."
+        "Nous garantissons un niveau de performance stable ainsi qu'une qualité constante de nous services et produits tout au long du cycle de vie des projets."
       ]
     }
   } as const;

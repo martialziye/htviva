@@ -82,7 +82,7 @@ export default function AboutSection() {
               <p className="text-gray-600 leading-relaxed">
                 {language === 'fr'
                   ? 'Nos ingénieurs et techniciens conjuguent leurs expertise pour concevoir des solutions innovantes répondant aux exigences les plus élevées de secteur ferroviaires.'
-                  : 'Our teams of engineers and technicians work closely together to develop innovative solutions adapted to the strictest requirements of the railway sector.'
+                  : 'Our engineers and technicians combine their expertise to design innovative solutions that meet the highest standards of the railway industry.'
                 }
               </p>
 

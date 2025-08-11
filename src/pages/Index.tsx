@@ -25,10 +25,10 @@ const Index = () => {
       {/* Products Showcase Section */}
       <div id="products">
         <ProductShowcase 
-          title={language === 'en' ? 'Our Industrial Display Solutions' : 'Nos solutions d\'affichage industriel'}
+          title={language === 'en' ? 'Our solutions DMI' : 'Nos solutions DMI'}
           subtitle={language === 'en' 
-            ? 'Discover our comprehensive range of rugged industrial displays designed for demanding environments' 
-            : 'Découvrez notre gamme complète d\'écrans industriels robustes conçus pour les environnements exigeants'
+            ? 'Railway Driver Machine Interface : ERTMS/ETCS/CBTC, TCMS, CCTV' 
+            : 'Console ferroviaire : ERTMS/ETCS/CBTC, TCMS, CCTV'
           }
           className="bg-gray-50"
         />
