@@ -6,6 +6,9 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
 
+// Import logo
+import homeLogo from '/public/assets/img/logo/home-logo.jpg';
+
 // Import all screen product images
 import screen7HT2505 from '/src/public/asset/img/screen/7-HT-2505.png';
 import screen10HT1419 from '/src/public/asset/img/screen/10-HT-1419-s2s5.png';
@@ -101,9 +104,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="text-2xl font-bold text-navy">
-              <span className="text-brand-red">HTVIV</span>A
-            </div>
+            <img 
+              src={homeLogo} 
+              alt="HT-VIVA Technology" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation - 靠右对齐 */}
