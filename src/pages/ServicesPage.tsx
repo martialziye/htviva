@@ -433,10 +433,14 @@ const ServicesPage = () => {
         </div>
         <div className="container-wide relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Quality</h2>
+            <h2 className="text-4xl font-bold mb-4">
+              {language === 'fr' ? 'Qualité' : 'Quality'}
+            </h2>
             <p className="text-lg text-white/90 max-w-4xl mx-auto">
-              We are involved in validation and certification of our processes.
-              We validate a stable level of performance and a constant quality of services and products throughout the life of projects.
+              {language === 'fr'
+                ? 'Nous sommes impliqués dans la validation et la certification de nos processus. Nous validons un niveau de performance stable et une qualité constante des services et produits tout au long de la vie des projets.'
+                : 'We are involved in validation and certification of our processes. We validate a stable level of performance and a constant quality of services and products throughout the life of projects.'
+              }
             </p>
           </div>
           

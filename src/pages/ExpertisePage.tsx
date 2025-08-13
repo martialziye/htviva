@@ -13,7 +13,7 @@ import expertiseStep6 from "/src/public/asset/img/expoertise/expertise-step-6.pn
 import backgroundImage from "/src/public/asset/img/expoertise/fond-ligne.jpg";
 
 const ExpertisePage = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const expertiseSteps = [
     {
@@ -200,17 +200,22 @@ const ExpertisePage = () => {
         <div className="container-wide">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">
-              Ready to start your project?
+              {language === 'fr' 
+                ? 'Prêt à démarrer votre projet ?' 
+                : 'Ready to start your project?'
+              }
             </h2>
             <p className="text-xl text-white/80 mb-8">
-              Let us guide you through each step of your electronic system
-              development
+              {language === 'fr'
+                ? 'Laissez-nous vous guider à travers chaque étape du développement de votre système électronique'
+                : 'Let us guide you through each step of your electronic system development'
+              }
             </p>
             <a
               href="/contact"
               className="inline-flex items-center bg-brand-red hover:bg-brand-red/90 text-white px-6 py-3 rounded-lg font-medium transition-colors"
             >
-              Get Started
+              {language === 'fr' ? 'Commencer' : 'Get Started'}
               <svg
                 className="ml-2 w-4 h-4"
                 fill="none"
