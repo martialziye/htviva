@@ -11,7 +11,11 @@ const ClientsWallSection = () => {
     { src: '/assets/img/logo/Fitsco.jpeg', alt: 'Fitsco' },
     { src: '/assets/img/logo/Unittec.png', alt: 'Unittec' },
     { src: '/assets/img/logo/CRRClogo.png', alt: 'CRRC' },
-    { src: '/assets/img/logo/Thales-SEC-Transport.jpeg', alt: 'Thales-SEC-Transport' }
+    { src: '/assets/img/logo/Thales-SEC-Transport.jpeg', alt: 'Thales-SEC-Transport' },
+    { src: '/assets/img/logo/CEIC.png', alt: 'CEIC' },
+    { src: '/assets/img/logo/BYD-logo.jpg', alt: 'BYD' },
+    { src: '/assets/img/logo/CRSC-logo.png', alt: 'CRSC' },
+    { src: '/assets/img/logo/BUCG-logo.jpg', alt: 'BUCG' }
   ];
 
   return (

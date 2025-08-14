@@ -3,7 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import engineerImage from '/public/assets/img/home/engineer-4915804_1280.jpg';
+import engineerImage from '/public/assets/img/home/engineer-4915804_1280.png';
 
 export default function AboutSection() {
   const { t, language } = useLanguage();
